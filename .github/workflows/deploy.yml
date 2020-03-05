@@ -3,7 +3,6 @@ on:
   push:
     branches:
     - master
-    - jeb/create_master_push_deployment
 jobs:
   deploy:
     runs-on: ubuntu-latest
