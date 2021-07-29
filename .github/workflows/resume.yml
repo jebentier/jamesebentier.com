@@ -1,8 +1,9 @@
 name: Resume Docker Image Build
 on:
   push:
-    branches: 
+    branches:
     - master
+    - main
 jobs:
   build:
     runs-on: ubuntu-latest
