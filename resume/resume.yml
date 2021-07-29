@@ -5,15 +5,15 @@ basics:
   name: James Ebentier
   picture: https://pbs.twimg.com/profile_images/1162515324635209728/0uDzcBIK_400x400.jpg
   label: >
-    Staff Software Engineer at Invoca
+    Principal Software Engineer at Invoca
   email: jebentier@gmail.com
   phone: +49 (0) 175 1060289
   website: https://jamesebentier.com
   summary: >
-    Staff Software Engineer with a primary focus on efficiently and effectively
-    transfering data between systems.  Over the past 10 years of my career I've
-    mastered skills across the Data Processing, Streaming, Infrastructure
-    Provisioning, Automation, Service Oriented Architecture Design and Software
+    Principal Software Engineer with a primary focus on efficiently and effectively
+    transfering data between systems, and automation.  Over the past 10 years of my
+    career I've mastered skills across the Data Processing, Streaming, Infrastructure
+    Provisioning, CI/CD Automation, Service Oriented Architecture Design and Software
     Development.
 
   location:
@@ -35,15 +35,47 @@ basics:
 
 work:
 - company: Invoca
-  position: Staff Software Engineer
-  website: https://www.invoca.com/
-  startDate: "2018-03-01"
+  position: Principal Software Engineer
+  website: https://www.invoca.com
+  startDate: "2021-03-01"
   summary: >
     Invoca is an AI-powered call tracking and analytics platform that helps
     marketers get campaign attribution and actionable data from
     inbound phone calls.  Invoca delivers real-time call analytics to help
     marketers take informed actions based on data generated
-    before and during a phone converstation.  As a Staff Software Engineer at
+    before and during a phone converstation. As a Principle Software Engineer
+    on the Release Engineering and Backend Platform team, I am responsible for
+    guiding and implementing the vision of all shared layers of the Invoca platform
+    and working to make sure that our Test and Release pipelines are generalized and
+    standardized to improve developer happiness and throughput.
+  highlights:
+  - >
+    Assessed and built improvementplans for shared libraries across the Invoca
+    platform including but not limitted to logging, secrets management, monitoring and
+    alerting, database management
+  - >
+    Planned and ran a cross team effort to upgrade our platform to new versions of shared
+    libraries
+  - >
+    Designed and implemented test infrastructure and pipeline improvements across the organization
+  - >
+    Designed the roadmap and worked with the executive and management team to prioritize
+    shift left initiatives to improve feedback loops and automation in the test and release
+    cycles
+  - >
+    Worked with the Infrastructure Platform and Security teams to build
+    test automation suites to be applied to all deployable services to improve
+    the overall development cycle
+  - >
+    Mentorship of junior developers to improve their knowledge and understanding of core
+    development practices
+- company: Invoca
+  position: Staff Software Engineer
+  website: https://www.invoca.com/
+  startDate: "2018-03-01"
+  endDate: "2021-03-01"
+  summary: >
+    As a Staff Software Engineer at
     Invoca, I was responsible for being a technical leader not
     only on my scrum team, but to the Engineering department as a whole.  I
     was not just responsible for coding solutions for complex
@@ -199,7 +231,7 @@ skills:
   - Logstash/BeatLib/Kibana
   - Python
   - Docker/Kubernetes
-  - Jenkins
+  - CI/CD Automation Systems
   - bash/sh/*nix
   - Chef/Ansible/Terraform
   - Graphite/Graphana/StatsD
