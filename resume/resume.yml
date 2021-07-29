@@ -43,15 +43,15 @@ work:
     marketers get campaign attribution and actionable data from
     inbound phone calls.  Invoca delivers real-time call analytics to help
     marketers take informed actions based on data generated
-    before and during a phone converstation. As a Principle Software Engineer
+    before and during a phone conversation. As a Principle Software Engineer
     on the Release Engineering and Backend Platform team, I am responsible for
     guiding and implementing the vision of all shared layers of the Invoca platform
     and working to make sure that our Test and Release pipelines are generalized and
     standardized to improve developer happiness and throughput.
   highlights:
   - >
-    Assessed and built improvementplans for shared libraries across the Invoca
-    platform including but not limitted to logging, secrets management, monitoring and
+    Assessed and built improvement plans for shared libraries across the Invoca
+    platform including but not limited to logging, secrets management, monitoring and
     alerting, database management
   - >
     Planned and ran a cross team effort to upgrade our platform to new versions of shared
@@ -79,7 +79,7 @@ work:
     Invoca, I was responsible for being a technical leader not
     only on my scrum team, but to the Engineering department as a whole.  I
     was not just responsible for coding solutions for complex
-    problems, but also planning ahead and designing scalable, fault talerent
+    problems, but also planning ahead and designing scalable, fault tolerant
     systems for processing call data sent from out telecom systems
     in real time.
   highlights:
@@ -120,7 +120,7 @@ work:
   summary: >
     As a Senior Software Engineer at Invoca I was responsible for being a
     technical leader on my team.  Performing Code Reviews and teaching
-    the other developers best practices.  It was expected of me to privide
+    the other developers best practices.  It was expected of me to provide
     simple, elegant, and fully tested solutions to complex problems at fast
     speeds.
   highlights:
