@@ -18,7 +18,7 @@ First you'll need to install docker as this is all packaged up using a docker im
 Run `docker run --rm -p 4000:4000 jebentier/resume serve` to run a local server with the resume renderd for local viewing on `localhost:4000`.
 
 ### Other Formats
-Other supported formats for viewing are `json`, `yaml`, and `html`.  These can be triggered by using the same docker image as the compose file.
+Other supported formats for viewing are `json`, `yaml`, `pdf` and `html`.  These can be triggered by using the same docker image as the compose file.
 
 ```docker run --rm jebentier/resume yaml```
 
