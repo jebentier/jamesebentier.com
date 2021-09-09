@@ -1,0 +1,120 @@
+@font-face {
+  font-family: 'Syncopate';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Syncopate Regular'), local('Syncopate-Regular'), url(https://fonts.gstatic.com/s/syncopate/v11/pe0sMIuPIYBCpEV5eFdCBfe_.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+$header-link-color: #333;
+$header-link-active-color: rgb(250, 183, 58);
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+  max-width: 1080px;
+}
+
+img {
+  max-width: 100%;
+}
+
+header {
+  width: 100%;
+  padding: 0.8rem;
+  margin-bottom: 1rem;
+  display: flex;
+
+  img {
+    height: 35px;
+    justify-self: first;
+  }
+
+  ul.nav {
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    margin-left: auto;
+    align-content: center;
+    align-items: stretch;
+    justify-content: flex-end;
+
+    li {
+      margin-left: 1rem;
+
+      a {
+        color: $header-link-color;
+        text-decoration: none;
+
+        &:hover {
+          text-decoration: underline;
+        }
+
+        &.active {
+          color: $header-link-active-color;
+          cursor: default;
+
+          &:hover {
+            text-decoration: none;
+          }
+        }
+      }
+    }
+  }
+}
+
+.home {
+  .bio {
+    font-size: 1.25rem;
+    font-weight: 200;
+    text-align: center;
+  }
+
+  p {
+    margin: 2rem auto;
+    max-width: 640px;
+
+    a {
+      font-weight: 500;
+    }
+
+    strong {
+      font-size: 1.4rem;
+      margin: 0.8rem;
+
+      &:nth-child(1) {
+        color: green;
+      }
+
+      &:nth-child(3) {
+        color: purple;
+      }
+
+      &:nth-child(6) {
+        color: orange;
+      }
+
+      &:nth-child(8) {
+        color: hotpink;
+      }
+    }
+  }
+
+  img {
+    width: 100%;
+    border-radius: 10px;
+  }
+}
+
+.blog-post {
+  font-family: 'Montserrat';
+  margin: 2rem auto;
+
+  h1 {
+    text-align: center;
+  }
+}
