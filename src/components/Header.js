@@ -9,7 +9,6 @@ export default function Header() {
         <li><NavLink exact to='/'>Home</NavLink></li>
         <li><NavLink to='/blog'>Blog</NavLink></li>
         <li><NavLink exact to='/resume'>Resume</NavLink></li>
-        <li><NavLink exact to='/social'>Social</NavLink></li>
       </ul>
     </header>
   );
