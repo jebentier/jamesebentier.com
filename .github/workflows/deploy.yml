@@ -2,13 +2,17 @@ name: Deploy Website
 on:
   push:
     branches:
-    - master
     - main
 jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@master
+    - uses: actions/setup-node@v2
+      with:
+        node-version: '14'
+    - run: yarn install
+    - run: yarn build
     - uses: jakejarvis/s3-sync-action@master
       with:
         args: --acl public-read --follow-symlinks --delete

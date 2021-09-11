@@ -1,0 +1,187 @@
+{
+  "basics": {
+    "name": "James Ebentier",
+    "picture": "https://pbs.twimg.com/profile_images/1162515324635209728/0uDzcBIK_400x400.jpg",
+    "label": "Principal Software Engineer at Invoca",
+    "email": "jebentier@gmail.com",
+    "phone": "+49 (0) 175 1060289",
+    "website": "https://jamesebentier.com",
+    "summary": "Principal Software Engineer with a primary focus on efficiently and effectively\ntransfering data between systems, and automation.  Over the past 10 years of my\ncareer I've mastered skills across the Data Processing, Streaming, Infrastructure\nProvisioning, CI/CD Automation, Service Oriented Architecture Design and Software\nDevelopment.",
+    "location": {
+      "postalCode": "10785",
+      "city": "Berlin",
+      "countryCode": "DE",
+      "region": "Berlin"
+    },
+    "profiles": [
+      {
+        "network": "github",
+        "username": "jebentier",
+        "url": "https://github.com/jebentier"
+      },
+      {
+        "network": "linkedin",
+        "username": "jebentier",
+        "url": "https://www.linkedin.com/in/jebentier"
+      },
+      {
+        "network": "twitter",
+        "username": "jebentier",
+        "url": "https://www.twitter.com/jebentier"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Invoca",
+      "position": "Principal Software Engineer",
+      "website": "https://www.invoca.com",
+      "startDate": "2021-03-01",
+      "summary": "Invoca is an AI-powered call tracking and analytics platform that helps\nmarketers get campaign attribution and actionable data from\ninbound phone calls.  Invoca delivers real-time call analytics to help\nmarketers take informed actions based on data generated\nbefore and during a phone conversation. As a Principle Software Engineer\non the Release Engineering and Backend Platform team, I am responsible for\nguiding and implementing the vision of all shared layers of the Invoca platform\nand working to make sure that our Test and Release pipelines are generalized and\nstandardized to improve developer happiness and throughput.",
+      "highlights": [
+        "Assessed and built improvement plans for shared libraries across the Invoca\nplatform including but not limited to logging, secrets management, monitoring and\nalerting, database management",
+        "Planned and ran a cross team effort to upgrade our platform to new versions of shared\nlibraries",
+        "Designed and implemented test infrastructure and pipeline improvements across the organization",
+        "Designed the roadmap and worked with the executive and management team to prioritize\nshift left initiatives to improve feedback loops and automation in the test and release\ncycles",
+        "Worked with the Infrastructure Platform and Security teams to build\ntest automation suites to be applied to all deployable services to improve\nthe overall development cycle",
+        "Mentorship of junior developers to improve their knowledge and understanding of core\ndevelopment practices"
+      ]
+    },
+    {
+      "company": "Invoca",
+      "position": "Staff Software Engineer",
+      "website": "https://www.invoca.com/",
+      "startDate": "2018-03-01",
+      "endDate": "2021-03-01",
+      "summary": "As a Staff Software Engineer at\nInvoca, I was responsible for being a technical leader not\nonly on my scrum team, but to the Engineering department as a whole.  I\nwas not just responsible for coding solutions for complex\nproblems, but also planning ahead and designing scalable, fault tolerant\nsystems for processing call data sent from out telecom systems\nin real time.",
+      "highlights": [
+        "Identified key areas of strain on internal systems, created a roadmap\nfor upgrade and development work, and delivered to completion through\nthe work of my team",
+        "Work cross team and cross department to understand and solve company\nneeds outside of feature development",
+        "Contributed heavily on sales initiatives that needed special\nengineering guidance during the implementation process",
+        "Designed and implemented an in-house auto-scaling centralized logging\nsolution capable of processing upwards of 1 billion log lines a day\nwith < 20 seconds of latency using Filebeat/Logstash, Kafka,\nElasticsearch, and Kibana.",
+        "Trained developers on how to use common production investigation tools\nlike Kibana, grep, MySQL, gdb",
+        "Developed an open source structured logging gem that is now used across\nthe entire platform for more detailed log aggregation in Elasticsearch",
+        "Designed the roadmap for and lead my team on rebuilding our data\nwebhooks infrastructure to be more scalable and follow SOA best\npractices",
+        "Designed and lead a cross team initiative to convert the communication\nbetween our telecom systems and data warehouse from REST API calls to\nKafka streams and Event Driven Design"
+      ]
+    },
+    {
+      "company": "Invoca",
+      "position": "Senior Software Engineer",
+      "website": "https://www.invoca.com/",
+      "startDate": "2016-02-01",
+      "endDate": "2018-03-01",
+      "summary": "As a Senior Software Engineer at Invoca I was responsible for being a\ntechnical leader on my team.  Performing Code Reviews and teaching\nthe other developers best practices.  It was expected of me to provide\nsimple, elegant, and fully tested solutions to complex problems at fast\nspeeds.",
+      "highlights": [
+        "Developed a SlackBot responsible for automating the deployment process",
+        "Converted all system from using a Chef provisioned YAML file to Consul\nand Consul Template for service discovery",
+        "Converted all system from using a Chef provisioned YAML file to Vault for\napplication secrets",
+        "Gained an understanding for the ins and outs of the telecom\ninfrastructure and performed regular fixes and upgrades to these system",
+        "Pushed company practices from bi-weekly deployments to multiple\ndeployments per day"
+      ]
+    },
+    {
+      "company": "Graphiq Inc.",
+      "position": "Senior Software Engineer",
+      "website": "https://www.graphiq.com/",
+      "startDate": "2013-10-14",
+      "endDate": "2016-01-14",
+      "summary": "Graphiq (formerly FindTheBest) is a semantic technology company that\ninstantly delivers deep insights from the world's data.\nSince 2010, the company has amassed the world's deepest and most\ninterconnected knowledge graph, encompassing 500 collections,\n1 billion entitites, 250 billion data points and 25 billion curated\nrelationships.  At Graphiq I was responsible for building\nand maintianing the main data pipeline in the platform used by the\ncompany to injest, process, and store data within the knowledge\ngraph.",
+      "highlights": [
+        "Implemented and managed Kafka infrustructure used for streaming data\nupdates into one of the world's largest knowledge graphs.",
+        "Utilized service oriented architecture principles to improve speed and\neffeciency of both the data pipeline, and development.",
+        "Built automated deploy pipelines for various pieces of the platform not\njust limited to the data pipeline",
+        "Developed API documentation and SDKs using OpenAPI for easy\ndistribution and usage throughout the company",
+        "Became a main contributor to the OpenAPI open source project",
+        "Developed a Pentaho Kettle plugin to allow ETL processes to seemlessly\nstream data into the platform"
+      ]
+    },
+    {
+      "company": "Novacoast",
+      "position": "Developer III",
+      "website": "https://www.novacoast.com/",
+      "startDate": "2011-06-01",
+      "endDate": "2013-10-01",
+      "summary": "Novacoast is a security and software development consultant company\nheadquartered in Santa Barbara, California. The services that\nNovacoast offered are geared toward enterprise and Fortune 500 companies.\nAs a Developer III at Novacoast I worked on many\ndifferent contracts ranging from software and infrastructure security\nconsultanting, urgent incident response teams,\nto beta application development for local start ups.",
+      "highlights": [
+        "Developed multiple demo applications for clients used for sales purposes",
+        "Performed and communicated the findings of penetration tests against a\nwide range of systems",
+        "Installed security infrastructure ranging from Web Application\nFirewalls to Symantec System Monitoring platforms",
+        "Developed and installed custom CRM and Active Directory management\nplatforms"
+      ]
+    },
+    {
+      "company": "Dekka-Tek",
+      "position": "Web Development Intern",
+      "startDate": "2010-01-01",
+      "endDate": "2010-06-01",
+      "summary": "Dekka-Tek was a think tank used to ideate and create new startups in the\nSanta Barbara, California area.  As an intern at Dekka-Tek I worked with\nBob Wilson and Derrek Allef to build out an online platform to be used by\nthe US Judo community for managing tournament registration and tracking."
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of California Santa Barbara",
+      "area": "Computer Science",
+      "studyType": "Bachelor of Science",
+      "startDate": "2007-09-01",
+      "endDate": "2012-06-01"
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native Speaker"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Daily Toolbelt",
+      "level": "Master",
+      "keywords": [
+        "Ruby/Rails",
+        "Node.js/Javascript/JQuery/React",
+        "CSS/HTML",
+        "Kafka/KafkaConnect/KSQL",
+        "RabbitMQ/Cellary",
+        "Percona/MySQL/PostgreSQL/MongoDB",
+        "Elasticsearch",
+        "Logstash/BeatLib/Kibana",
+        "Python",
+        "Docker/Kubernetes",
+        "CI/CD Automation Systems",
+        "bash/sh/*nix",
+        "Chef/Ansible/Terraform",
+        "Graphite/Graphana/StatsD",
+        "Distributed Trace/Jeager",
+        "AWS/GCE",
+        "Redis",
+        "Vault/Consul"
+      ]
+    },
+    {
+      "name": "Techniques",
+      "level": "Advanced",
+      "keywords": [
+        "Configuration Management",
+        "Continuous Integration / Deployment",
+        "Test Driven Development",
+        "Agile/Scrum/Kanbahn",
+        "Continuous Improvement",
+        "Service Oriented Architecture",
+        "Distributed Systems",
+        "Event Driven Architecture"
+      ]
+    },
+    {
+      "name": "Other Languages",
+      "level": "Intermediate",
+      "keywords": [
+        "Java/Scala",
+        "PHP",
+        "R",
+        "Go",
+        "C/C++"
+      ]
+    }
+  ]
+}
