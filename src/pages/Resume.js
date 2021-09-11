@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Helmet } from 'react-helmet';
 
 const resumeData = require('../../public/resume.json')
 
@@ -186,6 +187,9 @@ const Languages = () => (
 export default function Resume() {
   return (
     <div className='resume'>
+      <Helmet>
+        <title>James Ebentier - Resume</title>
+      </Helmet>
       <Header />
       <MainSummary />
       <Skills />

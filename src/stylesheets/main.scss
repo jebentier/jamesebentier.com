@@ -70,6 +70,12 @@ header {
   }
 }
 
+@media print {
+  header {
+    display: none;
+  }
+}
+
 .home {
   .bio {
     font-size: 1.25rem;

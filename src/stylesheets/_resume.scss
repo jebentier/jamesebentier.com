@@ -299,3 +299,13 @@
     }
   }
 }
+
+@media print {
+  .resume .jobs .job .job-content {
+    display: block;
+  }
+
+  .resume .jobs .job .job-header .job-toggle {
+    display: none;
+  }
+}
