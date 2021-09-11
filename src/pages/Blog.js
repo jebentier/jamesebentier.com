@@ -31,6 +31,8 @@ export default function Blog() {
   }
 
   return (
-    <h1>Blog Posts</h1>
+    <div className='blog'>
+      <h1>Blog Posts Coming Soon</h1>
+    </div>
   );
 }
