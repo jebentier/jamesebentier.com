@@ -8,7 +8,7 @@
   "license": "ISC",
   "scripts": {
     "start": "webpack-dev-server --open --hot --history-api-fallback --mode development",
-    "build": "webpack --mode production",
+    "build": "yaml2json public/resume.yml -p > public/resume.json && webpack --mode production",
     "test": "jest --config ./jest.config.js",
     "compile-resume": "yaml2json public/resume.yml -p > public/resume.json && resume export public/resume.pdf -r public/resume.json"
   },
