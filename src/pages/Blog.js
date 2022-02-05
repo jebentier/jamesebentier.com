@@ -6,6 +6,7 @@ import { Helmet } from 'react-helmet';
 
 const markdownToHtmlConverter = new Converter();
 const htmlToReactParser       = new HtmlToReactParser();
+const blogManifest            = require('../../public/blog/manifest.json');
 
 const loadPostMarkdown = async (id) => {
   const response = await fetch(`/blog/${id}.md`);
@@ -27,6 +28,16 @@ const Post = ({ id }) => {
   );
 }
 
+const Preview = ({ id, title, published_at: publishedAt, description }) => {
+  return (
+    <a href={`/blog/${id}`} className='blog-preview'>
+      <h3>{title}</h3>
+      <p className='tiny'>Published: {publishedAt}</p>
+      <p className='description'>{description}</p>
+    </a>
+  );
+}
+
 export default function Blog() {
   const { id } = useParams();
 
@@ -40,6 +51,7 @@ export default function Blog() {
         <title>James Ebentier - Blog</title>
       </Helmet>
       <h1>Blog Posts Coming Soon</h1>
+      {blogManifest.map((post) => <Preview key={post.id} {...post} />)}
     </div>
   );
 }
