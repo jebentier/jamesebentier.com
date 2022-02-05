@@ -1,4 +1,5 @@
 # jamesebentier.com
+
 My personal website, hosted at https://jamesebentier.com
 
 ## Stack
