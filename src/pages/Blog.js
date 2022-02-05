@@ -15,6 +15,7 @@ const loadPostMarkdown = async (id) => {
 
 const Post = ({ id }) => {
   const [post, setPost] = useState('Loading...');
+  const metadata = blogManifest.find(post => post.id === id);
 
   loadPostMarkdown(id).then((markdown) => setPost(markdown));
 
@@ -22,6 +23,8 @@ const Post = ({ id }) => {
     <div className='blog-post'>
       <Helmet>
         <title>James Ebentier - Blog - {id}</title>
+        <meta name="keywords" description={metadata.keywords} />
+        <meta name="description" description={metadata.description} />
       </Helmet>
       {htmlToReactParser.parse(markdownToHtmlConverter.makeHtml(post))}
     </div>
