@@ -23,8 +23,8 @@ const Post = ({ id }) => {
     <div className='blog-post'>
       <Helmet>
         <title>James Ebentier - Blog - {id}</title>
-        <meta name="keywords" description={metadata.keywords} />
-        <meta name="description" description={metadata.description} />
+        <meta name="keywords" content={metadata.keywords} />
+        <meta name="description" content={metadata.description} />
       </Helmet>
       {htmlToReactParser.parse(markdownToHtmlConverter.makeHtml(post))}
     </div>
