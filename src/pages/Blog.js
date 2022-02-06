@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { useParams } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
 import { Converter } from 'showdown';
 import { Parser as HtmlToReactParser } from 'html-to-react';
 import { Helmet } from 'react-helmet';
@@ -33,11 +33,11 @@ const Post = ({ id }) => {
 
 const Preview = ({ id, title, published_at: publishedAt, description }) => {
   return (
-    <a href={`/blog/${id}`} className='blog-preview'>
+    <Link to={`/blog/${id}`} className='blog-preview'>
       <h3>{title}</h3>
       <p className='tiny'>Published: {publishedAt}</p>
       <p className='description'>{description}</p>
-    </a>
+    </Link>
   );
 }
 
