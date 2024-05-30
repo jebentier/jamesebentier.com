@@ -22,7 +22,7 @@ const Post = ({ id }) => {
   return (
     <div className='blog-post'>
       <Helmet>
-        <title>James Ebentier - Blog - {id}</title>
+        <title>{id} | Blog | James Ebentier</title>
         <meta name="keywords" content={metadata.keywords} />
         <meta name="description" content={metadata.description} />
       </Helmet>
@@ -51,9 +51,9 @@ export default function Blog() {
   return (
     <div className='blog'>
       <Helmet>
-        <title>James Ebentier - Blog</title>
+        <title>Blog | James Ebentier</title>
       </Helmet>
-      <h1>Blog Posts Coming Soon</h1>
+      <h1>Recent Blog Posts</h1>
       {blogManifest.map((post) => <Preview key={post.id} {...post} />)}
     </div>
   );

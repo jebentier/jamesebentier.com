@@ -5,6 +5,7 @@ import Header from './components/Header'
 import Home from './pages/Home';
 import Blog from './pages/Blog';
 import Resume from './pages/Resume';
+import Projects from './pages/Projects';
 import NotFound from './pages/NotFound';
 
 export default function Router() {
@@ -15,6 +16,7 @@ export default function Router() {
         <Route exact path="/"       component={() => <Home />} />
         <Route path="/blog/:id"     component={() => <Blog />} />
         <Route path="/blog"         component={() => <Blog />} />
+        <Route path="/projects"     component={() => <Projects />} />
         <Route exact path="/resume" component={() => <Resume />} />
         <Route path="/"             component={() => <NotFound />} />
       </Switch>

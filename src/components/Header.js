@@ -8,6 +8,7 @@ export default function Header() {
       <ul className='nav'>
         <li><NavLink exact to='/'>Home</NavLink></li>
         <li><NavLink to='/blog'>Blog</NavLink></li>
+        <li><NavLink to='/projects'>Projects</NavLink></li>
         <li><NavLink exact to='/resume'>Resume</NavLink></li>
       </ul>
     </header>
