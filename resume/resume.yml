@@ -5,16 +5,16 @@ basics:
   name: James Ebentier
   picture: https://pbs.twimg.com/profile_images/1162515324635209728/0uDzcBIK_400x400.jpg
   label: >
-    Principal Software Engineer at Invoca
+    Software Architect at Invoca
   email: jebentier@gmail.com
   phone: +49 (0) 175 1060289
   website: https://jamesebentier.com
   summary: >
-    Principal Software Engineer with a primary focus on efficiently and effectively
+    Software Architect with a primary focus on efficiently and effectively
     transfering data between systems, and automation.  Over the past 10 years of my
     career I've mastered skills across the Data Processing, Streaming, Infrastructure
     Provisioning, CI/CD Automation, Service Oriented Architecture Design and Software
-    Development.
+    Development Lifecycle.
 
   location:
     postalCode: "10785"
@@ -35,9 +35,45 @@ basics:
 
 work:
 - company: Invoca
+  position: Software Architect
+  website: https://www.invoca.com
+  startDate: "2023-03-01"
+  summary: >
+    Invoca is an AI-powered call tracking and analytics platform that helps
+    marketers get campaign attribution and actionable data from
+    inbound phone calls.  Invoca delivers real-time call analytics to help
+    marketers take informed actions based on data generated
+    before and during a phone conversation. As a Software Architect
+    on the Dev Enablement group, I am responsible for
+    guiding and implementing the vision of a generalized development platform that our
+    product development teams can use to build and deploy their services with speed
+    and stability in mind. I work with the executive and management team to prioritize
+    shift left initiatives to improve feedback loops and automation in the test and release
+    cycles, standardization of service development to allow for easier cross team collaboration
+    and a focus on improving the overall developer experience.
+  highlights:
+  - >
+    Guided the development of a new development platform that allows for easy
+    service creation, deployment, and monitoring by leveraging the Backstage tooling system
+  - >
+    Helped to implement automated release and upgrade strategies for core low level components
+    like core libraries and languages. Automating the build, test, release cycles for new versions
+    of Ruby and Rails.
+  - >
+    Worked with management to prioritize and implement developer productivity metrics and tools
+    utilizing DORA and SPACE metrics to improve the overall development cycle.
+  - >
+    Managed technical debt and architectural improvements across the platform for seamless and
+    non-interruptive upgrades and improvements, allowing the product development teams to focus on
+    delivering customer value.
+  - >
+    Mentorship of senior and tech lead engineers to improve their knowledge and understanding of core
+    development practices and architectural design.
+- company: Invoca
   position: Principal Software Engineer
   website: https://www.invoca.com
   startDate: "2021-03-01"
+  endDate: "2023-03-01"
   summary: >
     Invoca is an AI-powered call tracking and analytics platform that helps
     marketers get campaign attribution and actionable data from
@@ -223,7 +259,6 @@ skills:
   keywords:
   - Ruby/Rails
   - Node.js/Javascript/JQuery/React
-  - CSS/HTML
   - Kafka/KafkaConnect/KSQL
   - RabbitMQ/Cellary
   - Percona/MySQL/PostgreSQL/MongoDB
@@ -234,9 +269,9 @@ skills:
   - CI/CD Automation Systems
   - bash/sh/*nix
   - Chef/Ansible/Terraform
-  - Graphite/Graphana/StatsD
+  - Prometheus/Graphite/Graphana/StatsD
   - Distributed Trace/Jeager
-  - AWS/GCE
+  - AWS/GCE/Heroku
   - Redis
   - Vault/Consul
 - name: Techniques
