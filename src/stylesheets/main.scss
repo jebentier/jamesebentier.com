@@ -111,12 +111,21 @@ header {
       &:nth-child(8) {
         color: hotpink;
       }
+
+      &:nth-child(9) {
+        color: goldenrod;
+      }
+
+      &:nth-child(10) {
+        color: fuchsia;
+      }
     }
   }
 
   img {
     width: 100%;
     border-radius: 10px;
+    margin-bottom: 2rem;
   }
 }
 
