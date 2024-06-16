@@ -185,7 +185,7 @@ const WorkExperience = (resumeData: ResumeData) => (
       <h2 className='section-title'>Work Experience ({resumeData.work.length})</h2>
     </div>
     <div className='jobs'>
-      {resumeData.work.map((job: JobData, key: number) => <Job {...{ key, ...job, open: key == 0 }} />)}
+      {resumeData.work.map((job: JobData, key: number) => <Job {...{ key, ...job, open: key === 0 }} />)}
     </div>
   </div>
 )
