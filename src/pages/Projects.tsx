@@ -2,7 +2,15 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
 
-const projectManifest = [
+type ProjectData = {
+  title: string,
+  description: string,
+  status: string,
+  url: string,
+  image: string,
+};
+
+const projectManifest: ProjectData[] = [
   {
     title: 'NotMyRealEmail.com - Secure Email Aliasing and Forwarding Service',
     description: 'Not My Real Email offers users a secure and convenient solution to protect their online privacy by creating email aliases or masks over their existing email addresses, perfect for those seeking heightened anonymity and safety in their online activities.',
@@ -19,7 +27,7 @@ const projectManifest = [
   }
 ];
 
-const Project = ({ title, description, status, url, image }) => {
+const Project = ({ title, description, status, url, image }: ProjectData) => {
   return (
     <Link to={{ pathname: url }} target='_blank' className='project'>
       <div className='image'>

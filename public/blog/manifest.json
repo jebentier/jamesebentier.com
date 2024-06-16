@@ -3,14 +3,14 @@
     "id": "2022-02-13-Hosting-Your-Personal-Site-On-AWS-S3",
     "title": "Hosting Your Personal Site On AWS S3",
     "description": "Now that we know we want to host our personal site on AWS S3, we need to set up the bucket and the website. We'll also need to set up the bucket policy to allow the website to be publicly accessible. And a couple other things to make sure the website is secure. Let's dive in!",
-    "published_at": "February 13, 2022",
+    "publishedAt": "February 13, 2022",
     "keywords": "personal site, hosting, blog, jamesebentier.com, jamesebentier.com/blog, aws s3, aws cloudfront, terraform"
   },
   {
     "id": "2022-02-06-Hosting-A-Personal-Site-On-The-Cheap",
     "title": "Hosting a Personal Site on the Cheap",
     "description": "Most software engineers want to host their own personal website. A site that has their resume, social handles, something that distinguishes them from others, and possibly even a blog.  Personal websites have become quite the norm for developers these days, but where is the best place to start? This blog post series will be walking through the creation and hosting of my very own personal site (jamesebentier.com) from ideation, to management.",
-    "published_at": "February 6, 2022",
+    "publishedAt": "February 6, 2022",
     "keywords": "personal site, hosting, blog, jamesebentier.com, jamesebentier.com/blog, automation, developer life cycle, web hosting"
   }
 ]
