@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title><![CDATA[Projects | RSS Feeds | James Ebentier]]></title>
+        <description><![CDATA[Welcome to my projects!]]></description>
+        <link>jamesebentier.com/projects</link>
+        <image>
+            <url>jamesebentier.com/logo.png</url>
+            <title>Projects | RSS Feeds | James Ebentier</title>
+            <link>jamesebentier.com/projects</link>
+        </image>
+        <generator>RSS for Node</generator>
+        <lastBuildDate>Sun, 16 Jun 2024 11:32:43 GMT</lastBuildDate>
+        <atom:link href="jamesebentier.com/projects/rss.xml" rel="self" type="application/rss+xml"/>
+        <pubDate>Sun, 16 Jun 2024 11:32:43 GMT</pubDate>
+        <copyright><![CDATA[All rights reserved 2024, James Ebentier]]></copyright>
+        <item>
+            <title><![CDATA[NotMyRealEmail.com - Secure Email Aliasing and Forwarding Service]]></title>
+            <description><![CDATA[Not My Real Email offers users a secure and convenient solution to protect their online privacy by creating email aliases or masks over their existing email addresses, perfect for those seeking heightened anonymity and safety in their online activities.]]></description>
+            <link>https://notmyrealemail.com</link>
+            <guid isPermaLink="false">not-my-real-email</guid>
+            <enclosure url="https://notmyrealemail.com/logo-120.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[The Game About People]]></title>
+            <description><![CDATA[The Game About People is where we first debuted BiTi to the world. The focus of this game is to get to know your friends better, and get to know which of your friends knows you best. The Game About People is a fun multiplayer game and is a hit at parties where you want to see just how well you all know each other.]]></description>
+            <link>https://thegameaboutpeople.com</link>
+            <guid isPermaLink="false">the-game-about-people</guid>
+            <enclosure url="https://biti.dev/images/Biti-Site.gif" length="0" type="image/gif"/>
+        </item>
+    </channel>
+</rss>
