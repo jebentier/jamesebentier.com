@@ -5,7 +5,14 @@ module.exports = {
     "./public/**/*.html"
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'resume': ["Helvetica Neue", "Helvetica", "Arial", "Lucida Grande", "sans-serif"],
+      },
+      listStyleType: {
+        square: 'square',
+      },
+    },
   },
   plugins: [],
 }
