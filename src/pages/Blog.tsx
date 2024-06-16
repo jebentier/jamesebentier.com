@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
-import Markdown from 'react-markdown'
+// import Markdown from 'react-markdown'
 import { Helmet } from 'react-helmet';
 import NotFound from './NotFound';
 
@@ -29,7 +29,7 @@ const Post = (metadata: BlogPost) => {
         <meta name="keywords" content={metadata.keywords} />
         <meta name="description" content={metadata.description} />
       </Helmet>
-      <Markdown>{post}</Markdown>
+      {/* <Markdown>{post}</Markdown> */}
     </div>
   );
 }

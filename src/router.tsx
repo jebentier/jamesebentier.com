@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Header from './components/Header'
 import Home from './pages/Home';
@@ -12,12 +12,14 @@ export default function Router() {
   return (
     <BrowserRouter>
       <Header />
-      <Route path="/"         element={<Home />} />
-      <Route path="/blog/:id" element={<Blog />} />
-      <Route path="/blog"     element={<Blog />} />
-      <Route path="/projects" element={<Projects />} />
-      <Route path="/resume"   element={<Resume />} />
-      <Route path="/"         element={<NotFound />} />
+      <Routes>
+        <Route path="/"         element={<Home />} />
+        <Route path="/blog/:id" element={<Blog />} />
+        <Route path="/blog"     element={<Blog />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/resume"   element={<Resume />} />
+        <Route path="/"         element={<NotFound />} />
+      </Routes>
     </BrowserRouter>
   );
 }
