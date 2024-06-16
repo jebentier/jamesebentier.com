@@ -9,7 +9,6 @@
 @import '../../node_modules/@fontsource/syncopate/400.css';
 @import '../../node_modules/@fontsource/syncopate/700.css';
 
-@import 'blog';
 @import 'projects';
 
 $header-link-color: #333;
@@ -126,20 +125,5 @@ header {
     width: 100%;
     border-radius: 10px;
     margin-bottom: 2rem;
-  }
-}
-
-.blog {
-  position: relative;
-  top: 50%;
-  text-align: center;
-}
-
-.blog-post {
-  font-family: 'Montserrat';
-  margin: 2rem auto;
-
-  h1 {
-    text-align: center;
   }
 }
