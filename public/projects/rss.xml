@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title><![CDATA[Projects | RSS Feeds | James Ebentier]]></title>
+        <title><![CDATA[James Ebentier Projects | RSS Feeds]]></title>
         <description><![CDATA[Welcome to my projects!]]></description>
-        <link>jamesebentier.com/projects</link>
+        <link>https://jamesebentier.com/projects</link>
         <image>
-            <url>jamesebentier.com/logo.png</url>
-            <title>Projects | RSS Feeds | James Ebentier</title>
-            <link>jamesebentier.com/projects</link>
+            <url>https://jamesebentier.com/logo.png</url>
+            <title>James Ebentier Projects | RSS Feeds</title>
+            <link>https://jamesebentier.com/projects</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 16 Jun 2024 11:32:43 GMT</lastBuildDate>
-        <atom:link href="jamesebentier.com/projects/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sun, 16 Jun 2024 11:32:43 GMT</pubDate>
+        <lastBuildDate>Sun, 16 Jun 2024 18:48:24 GMT</lastBuildDate>
+        <atom:link href="https://jamesebentier.com/projects/rss.xml" rel="self" type="application/rss+xml"/>
+        <pubDate>Sun, 16 Jun 2024 18:48:24 GMT</pubDate>
         <copyright><![CDATA[All rights reserved 2024, James Ebentier]]></copyright>
         <item>
             <title><![CDATA[NotMyRealEmail.com - Secure Email Aliasing and Forwarding Service]]></title>

@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title><![CDATA[Blog posts | RSS Feeds | James Ebentier]]></title>
+        <title><![CDATA[James Ebentier Blog | RSS Feeds]]></title>
         <description><![CDATA[Welcome to my blog!]]></description>
-        <link>jamesebentier.com/blog</link>
+        <link>https://jamesebentier.com/blog</link>
         <image>
-            <url>jamesebentier.com/logo.png</url>
-            <title>Blog posts | RSS Feeds | James Ebentier</title>
-            <link>jamesebentier.com/blog</link>
+            <url>https://jamesebentier.com/logo.png</url>
+            <title>James Ebentier Blog | RSS Feeds</title>
+            <link>https://jamesebentier.com/blog</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 16 Jun 2024 11:32:43 GMT</lastBuildDate>
-        <atom:link href="jamesebentier.com/blog/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sun, 16 Jun 2024 11:32:43 GMT</pubDate>
+        <lastBuildDate>Sun, 16 Jun 2024 18:48:24 GMT</lastBuildDate>
+        <atom:link href="https://jamesebentier.com/blog/rss.xml" rel="self" type="application/rss+xml"/>
+        <pubDate>Sun, 16 Jun 2024 18:48:24 GMT</pubDate>
         <copyright><![CDATA[All rights reserved 2024, James Ebentier]]></copyright>
         <item>
             <title><![CDATA[Hosting Your Personal Site On AWS S3]]></title>
             <description><![CDATA[Now that we know we want to host our personal site on AWS S3, we need to set up the bucket and the website. We'll also need to set up the bucket policy to allow the website to be publicly accessible. And a couple other things to make sure the website is secure. Let's dive in!]]></description>
-            <link>jamesebentier.com/blog/2022-02-13-Hosting-Your-Personal-Site-On-AWS-S3</link>
+            <link>https://jamesebentier.com/blog/2022-02-13-Hosting-Your-Personal-Site-On-AWS-S3</link>
             <guid isPermaLink="false">2022-02-13-Hosting-Your-Personal-Site-On-AWS-S3</guid>
             <pubDate>Sun, 13 Feb 2022 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Hosting a Personal Site on the Cheap]]></title>
             <description><![CDATA[Most software engineers want to host their own personal website. A site that has their resume, social handles, something that distinguishes them from others, and possibly even a blog.  Personal websites have become quite the norm for developers these days, but where is the best place to start? This blog post series will be walking through the creation and hosting of my very own personal site (jamesebentier.com) from ideation, to management.]]></description>
-            <link>jamesebentier.com/blog/2022-02-06-Hosting-A-Personal-Site-On-The-Cheap</link>
+            <link>https://jamesebentier.com/blog/2022-02-06-Hosting-A-Personal-Site-On-The-Cheap</link>
             <guid isPermaLink="false">2022-02-06-Hosting-A-Personal-Site-On-The-Cheap</guid>
             <pubDate>Sun, 06 Feb 2022 00:00:00 GMT</pubDate>
         </item>
