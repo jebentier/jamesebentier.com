@@ -8,7 +8,7 @@ const Projects = require('../public/projects/manifest.json');
 const rootUrl = 'jamesebentier.com';
 
 const blogFeed = new RSS({
-  title: 'Blog posts | RSS Feeds | James Ebentier',
+  title: 'James Ebentier Blog | RSS Feeds',
   description: 'Welcome to my blog!',
   site_url: `${rootUrl}/blog`,
   feed_url: `${rootUrl}/blog/rss.xml`,
@@ -21,14 +21,14 @@ BlogPosts.forEach((post) => {
   blogFeed.item({
     title: post.title,
     description: post.description,
-    url: `${rootUrl}/blog/${post.id}`,
+    url: `/blog/${post.id}`,
     guid: post.id,
     date: new Date(post.publishedAt),
   });
 });
 
 const projectFeed = new RSS({
-  title: 'Projects | RSS Feeds | James Ebentier',
+  title: 'James Ebentier Projects | RSS Feeds',
   description: 'Welcome to my projects!',
   site_url: `${rootUrl}/projects`,
   feed_url: `${rootUrl}/projects/rss.xml`,
