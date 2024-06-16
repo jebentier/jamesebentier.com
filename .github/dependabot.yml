@@ -16,6 +16,17 @@ updates:
     labels:
       - 'dependencies'
       - 'javascript'
+    groups:
+      minor-patch-versions: # Group together minor / patch updates.
+        applies-to: "version-updates"
+        update-types:
+        - "minor"
+        - "patch"
+      minor-patch-security:
+        applies-to: "security-updates"
+        update-types:
+        - "minor"
+        - "patch"
 
   - package-ecosystem: 'github-actions'
     directory: '/'
@@ -26,3 +37,14 @@ updates:
     labels:
       - 'dependencies'
       - 'gh-action'
+    groups:
+      minor-patch-versions: # Group together minor / patch updates.
+        applies-to: "version-updates"
+        update-types:
+        - "minor"
+        - "patch"
+      minor-patch-security:
+        applies-to: "security-updates"
+        update-types:
+        - "minor"
+        - "patch"
