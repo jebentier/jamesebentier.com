@@ -6,7 +6,7 @@ export default function Home() {
       <div className='bio'>
         <p>
           Hello, my name is <strong>James Ebentier.</strong><br />
-          I am a <strong>Software Architect</strong> for <a href='https://invoca.com' target='_blank' rel='noopener'>Invoca Inc.</a><br/>
+          I am a <strong>Software Architect</strong> for <a href='https://invoca.com' target='_blank' rel='noreferrer'>Invoca Inc.</a><br/>
           based out of <strong>Berlin, Germany.</strong><br/>
           Outside of work I am a <strong>hacker</strong>, community <strong>advocate</strong>, and <strong>mentor</strong> to any and all who seek it.
         </p>
