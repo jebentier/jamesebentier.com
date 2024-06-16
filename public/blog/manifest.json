@@ -7,10 +7,17 @@
     "keywords": "personal site, hosting, blog, jamesebentier.com, jamesebentier.com/blog, aws s3, aws cloudfront, terraform"
   },
   {
-    "id": "2022-02-06-Hosting-A-Personal-Site-On-The-Cheap",
+    "id": "2024-06-06-Hosting-A-Personal-Site-On-The-Cheap",
     "title": "Hosting a Personal Site on the Cheap",
     "description": "Most software engineers want to host their own personal website. A site that has their resume, social handles, something that distinguishes them from others, and possibly even a blog.  Personal websites have become quite the norm for developers these days, but where is the best place to start? This blog post series will be walking through the creation and hosting of my very own personal site (jamesebentier.com) from ideation, to management.",
     "publishedAt": "2024-06-06",
     "keywords": "personal site, hosting, blog, jamesebentier.com, jamesebentier.com/blog, automation, developer life cycle, web hosting"
+  },
+  {
+    "id": "2024-06-17-Why-Is-Automated-Testing-Important",
+    "title": "Why Is Automated Testing Important?",
+    "description": "Automated testing is a critical part of the software development process. Learn why even as a solo developer, you should be writing tests for your code.",
+    "publishedAt": "2024-06-17",
+    "keywords": "blog, jamesebentier.com, jamesebentier.com/blog, software automation, software testing, solo development best practices, development life cycle"
   }
 ]
