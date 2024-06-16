@@ -7,6 +7,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
+        'sans-serif': ['Montserrat', 'sans-serif'],
         'resume': ["Helvetica Neue", "Helvetica", "Arial", "Lucida Grande", "sans-serif"],
       },
       listStyleType: {
