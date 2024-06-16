@@ -162,7 +162,7 @@ const Job = ({ company, position, website, startDate, endDate, summary, highligh
         <div className='company-info'>
           <div className='position'>{position}</div>
           <div className='company'>{company}</div>
-          <div className='website'><a href={website} target='_blank'>{website}</a></div>
+          <div className='website'><a href={website} target='_blank' rel='noopener'>{website}</a></div>
         </div>
         <div className='dates'>
           <div className='start-date'>{renderDate(startDate)}</div>

@@ -28,7 +28,7 @@ const projectManifest: ProjectData[] = [
 
 const Project = ({ title, description, status, url, image }: ProjectData) => {
   return (
-    <a href={url} target='_blank' className='project'>
+    <a href={url} target='_blank' rel='noopener' className='project'>
       <div className='image'>
         <img src={image} alt={title} />
       </div>
