@@ -9,7 +9,7 @@ jobs:
       with:
         node-version: '20'
     - run: npm install
-    - run: npm build
+    - run: npm run build
     - uses: jakejarvis/s3-sync-action@master
       if: github.ref == 'refs/heads/main'
       with:
