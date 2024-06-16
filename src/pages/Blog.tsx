@@ -23,7 +23,7 @@ const Post = (metadata: BlogPost) => {
   loadPostMarkdown(metadata.id).then((markdown) => setPost(markdown));
 
   return (
-    <div className='blog-post'>
+    <div className='prose w-full max-w-none'>
       <Helmet>
         <title>{metadata.id} | Blog | James Ebentier</title>
         <meta name="keywords" content={metadata.keywords} />
@@ -36,10 +36,10 @@ const Post = (metadata: BlogPost) => {
 
 const Preview = ({ id, title, publishedAt, description }: BlogPost) => {
   return (
-    <Link to={`/blog/${id}`} className='blog-preview'>
-      <h3>{title}</h3>
-      <p className='tiny'>Published: {publishedAt}</p>
-      <p className='description'>{description}</p>
+    <Link to={`/blog/${id}`} className='blog-preview block mb-6 p-6 border border-[#eaeaea] rounded bg-white shadow-lg text-justify w-full text-black no-underline'>
+      <h3 className='text-xl'>{title}</h3>
+      <p className='text-sm text-[#999] my-2'>Published: {publishedAt}</p>
+      <p className='mb-0'>{description}</p>
     </Link>
   );
 }
@@ -60,11 +60,11 @@ export default function Blog() {
   }
 
   return (
-    <div className='blog'>
+    <div className='relative top-1/2 text-center font-thin'>
       <Helmet>
         <title>Blog | James Ebentier</title>
       </Helmet>
-      <h1>Recent Blog Posts</h1>
+      <h1 className='text-3xl mb-4'>Recent Blog Posts</h1>
       {blogManifest.map((post: BlogPost) => <Preview key={post.id} {...post} />)}
     </div>
   );
