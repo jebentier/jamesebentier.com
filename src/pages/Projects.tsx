@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
 
 type ProjectData = {
@@ -29,7 +28,7 @@ const projectManifest: ProjectData[] = [
 
 const Project = ({ title, description, status, url, image }: ProjectData) => {
   return (
-    <Link to={{ pathname: url }} target='_blank' className='project'>
+    <a href={url} target='_blank' className='project'>
       <div className='image'>
         <img src={image} alt={title} />
       </div>
@@ -38,7 +37,7 @@ const Project = ({ title, description, status, url, image }: ProjectData) => {
         <p className='tiny'>Status: {status}</p>
         <p className='description'>{description}</p>
       </div>
-    </Link>
+    </a>
   );
 }
 
