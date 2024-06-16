@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom';
 export default function Header() {
   return (
     <header>
-      <img src="/images/favicon.ico" alt="James Ebentier" />
+      <img src="/favicon.ico" alt="James Ebentier" />
       <ul className='nav'>
         <li><NavLink to='/'>Home</NavLink></li>
         <li><NavLink to='/blog'>Blog</NavLink></li>
