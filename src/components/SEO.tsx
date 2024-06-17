@@ -23,7 +23,7 @@ const DEFAULT_SEO: SEOProps & { openGraph: { image: string }} = {
   description: "I am a Software Architect by day, and a indie hacker, mentor, and community advocate by night.",
   keywords: "Software, Engineer, Architect, Automation, Mentorship, Open Source, Contributor, Security, Ruby, Rails",
   openGraph: {
-    image: 'https://jamesebentier.com/logo192.png',
+    image: 'https://jamesebentier.com/images/landing-image.webp',
   }
 }
 
