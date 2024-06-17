@@ -45,7 +45,10 @@ export default function Blog() {
   const [blogManifest, setBlogManifest] = useState<BlogPost[] | undefined>();
 
   if (!blogManifest) {
-    fetch('/blog/manifest.json').then((response) => response.json()).then(setBlogManifest);
+    fetch('/blog/manifest.json')
+      .then((response) => response.json())
+      .then((posts) => posts.sort((a: BlogPost, b: BlogPost) => (new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime())))
+      .then(setBlogManifest);
     return <div>Loading...</div>;
   }
 
