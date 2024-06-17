@@ -18,22 +18,31 @@ type SEOProps = {
   },
 };
 
+const DEFAULT_SEO: SEOProps & { openGraph: { image: string }} = {
+  title: 'JEB Development',
+  description: "I am a Software Architect by day, and a indie hacker, mentor, and community advocate by night.",
+  keywords: "Software, Engineer, Architect, Automation, Mentorship, Open Source, Contributor, Security, Ruby, Rails",
+  openGraph: {
+    image: 'https://jamesebentier.com/logo192.png',
+  }
+}
+
 export const SEO = ({ title, description, keywords, openGraph, twitter }: SEOProps) => (
   <Helmet
-    defaultTitle='JEB Development'
-    titleTemplate='%s | JEB Development'
+    defaultTitle={DEFAULT_SEO.title}
+    titleTemplate={`%s | ${DEFAULT_SEO.title}`}
   >
     <title>{title}</title>
-    {description && <meta name="description" content={description} />}
-    {keywords && <meta name="keywords" content={keywords} />}
+    <meta name="description" content={description || DEFAULT_SEO.description} />
+    <meta name="keywords" content={keywords || DEFAULT_SEO.keywords} />
 
-    <meta name="og:title" content={openGraph?.title || title} />
-    {description && <meta name="og:description" content={openGraph?.description || description} />}
-    {openGraph?.image && <meta name="og:image" content={openGraph.image} />}
+    <meta name="og:title" content={openGraph?.title || title || DEFAULT_SEO.title} />
+    <meta name="og:description" content={openGraph?.description || description || DEFAULT_SEO.description} />
+    <meta name="og:image" content={openGraph?.image || DEFAULT_SEO.openGraph.image} />
 
-    <meta name="twitter:title" content={twitter?.title || title} />
-    {twitter?.card && <meta name="twitter:card" content={twitter.card} />}
-    {description && <meta name="twitter:description" content={twitter?.description || openGraph?.description || description} />}
-    {(twitter?.image || openGraph?.image) && <meta name="twitter:image" content={twitter?.image || openGraph?.image} />}
+    <meta name="twitter:title" content={twitter?.title || title || DEFAULT_SEO.title} />
+    <meta name="twitter:card" content={twitter?.card || 'summary_large_image'} />
+    <meta name="twitter:description" content={twitter?.description || openGraph?.description || description || DEFAULT_SEO.description} />
+    <meta name="twitter:image" content={twitter?.image || openGraph?.image || DEFAULT_SEO.openGraph.image} />
   </Helmet>
 );
