@@ -19,5 +19,12 @@
     "description": "Automated testing is a critical part of the software development process. Learn why even as a solo developer, you should be writing tests for your code.",
     "publishedAt": "2024-06-17",
     "keywords": "blog, jamesebentier.com, jamesebentier.com/blog, software automation, software testing, solo development best practices, development life cycle"
+  },
+  {
+    "id": "2024-06-19-The-Downsides-Of-Single-Page-Apps",
+    "title": "The Downsides of Single Page Apps",
+    "description": "Learn with me why single page apps are not always the best choice for your web application.",
+    "publishedAt": "2024-06-19",
+    "keywords": "blog, jamesebentier.com, jamesebentier.com/blog, solo development best practices, single page apps, server side rendering, seo best practices, social sharing meta tags"
   }
 ]
