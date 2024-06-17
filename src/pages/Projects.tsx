@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Helmet } from 'react-helmet';
+import { SEO } from '../components/SEO';
 
 type ProjectData = {
   title: string,
@@ -34,9 +34,7 @@ export default function Projects() {
 
   return (
     <div className='projects'>
-      <Helmet>
-        <title>Current Projects | James Ebentier</title>
-      </Helmet>
+      <SEO title='Current Projects' />
       <h1 className='text-3xl mb-4'>Recent Projects</h1>
       {projectManifest.map((project) => <Project key={project.title} {...project} />)}
     </div>

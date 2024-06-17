@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { Helmet } from 'react-helmet';
 import {
   CallOutlined,
   EmailOutlined,
@@ -13,6 +12,7 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LanguageIcon from '@mui/icons-material/Language';
 import { SvgIconProps } from '@mui/material';
+import { SEO } from '../components/SEO';
 
 type SocialProfileData = {
   network: string,
@@ -282,9 +282,7 @@ export default function Resume() {
   }
   return (
     <div className='resume text-sm m-auto text-[#40484f] font-resume text-justify leading-snug'>
-      <Helmet>
-        <title>James Ebentier - Resume</title>
-      </Helmet>
+      <SEO title='Resume' />
       <Header {...resumeData} />
       <MainSummary {...resumeData} />
       <Skills {...resumeData} />

@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import Markdown from 'react-markdown'
-import { Helmet } from 'react-helmet';
 import NotFound from './NotFound';
+import { SEO } from '../components/SEO';
 
 type BlogPost = {
   id: string,
@@ -24,11 +24,7 @@ const Post = (metadata: BlogPost) => {
 
   return (
     <div className='prose w-full max-w-none'>
-      <Helmet>
-        <title>{metadata.id} | Blog | James Ebentier</title>
-        <meta name="keywords" content={metadata.keywords} />
-        <meta name="description" content={metadata.description} />
-      </Helmet>
+      <SEO title={`${metadata.title} | Blog`} description={metadata.description} keywords={metadata.keywords} />
       <Markdown>{post}</Markdown>
     </div>
   );
@@ -61,9 +57,7 @@ export default function Blog() {
 
   return (
     <div className='relative top-1/2 text-center font-thin'>
-      <Helmet>
-        <title>Blog | James Ebentier</title>
-      </Helmet>
+      <SEO title='Blog' />
       <h1 className='text-3xl mb-4'>Recent Blog Posts</h1>
       {blogManifest.map((post: BlogPost) => <Preview key={post.id} {...post} />)}
     </div>
