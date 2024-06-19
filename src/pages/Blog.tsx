@@ -23,7 +23,7 @@ const Post = (metadata: BlogPost) => {
   loadPostMarkdown(metadata.id).then((markdown) => setPost(markdown));
 
   return (
-    <div className='prose w-full max-w-none'>
+    <div className='prose w-full max-w-none mb-12'>
       <SEO title={`${metadata.title} | Blog`} description={metadata.description} keywords={metadata.keywords} />
       <Markdown>{post}</Markdown>
     </div>

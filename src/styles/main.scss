@@ -16,3 +16,26 @@
 @import '../../node_modules/@fontsource/montserrat/600.css';
 @import '../../node_modules/@fontsource/montserrat/700.css';
 @import '../../node_modules/@fontsource/montserrat/800.css';
+
+
+.prose {
+  img {
+    @apply rounded-lg mx-auto;
+    max-width: 50%;
+    &::after {
+      @apply block text-center text-sm text-gray-500;
+      content: attr(alt);;
+    }
+  }
+
+  img[src*='#left'] {
+    float: left;
+    margin-right: 2rem;
+    max-width: 33%;
+  }
+  img[src*='#right'] {
+    float: right;
+    margin-left: 2rem;
+    max-width: 33%;
+  }
+}
