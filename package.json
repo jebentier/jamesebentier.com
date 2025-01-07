@@ -9,7 +9,7 @@
     "@fontsource/roboto": "^5.1.1",
     "@fontsource/syncopate": "^5.1.1",
     "@mui/icons-material": "^5.16.13",
-    "@mui/material": "^5.16.13",
+    "@mui/material": "^5.16.14",
     "@tailwindcss/typography": "^0.5.15",
     "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/react": "^16.1.0",
