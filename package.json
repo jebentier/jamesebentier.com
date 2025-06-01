@@ -8,7 +8,7 @@
     "@fontsource/montserrat": "^5.2.5",
     "@fontsource/roboto": "^5.2.5",
     "@fontsource/syncopate": "^5.2.5",
-    "@mui/icons-material": "^5.16.14",
+    "@mui/icons-material": "^7.1.0",
     "@mui/material": "^5.16.14",
     "@tailwindcss/typography": "^0.5.16",
     "@testing-library/jest-dom": "^6.6.3",
