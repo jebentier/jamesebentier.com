@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.14.0",
-    "@emotion/styled": "^11.14.0",
+    "@emotion/styled": "^11.14.1",
     "@fontsource/montserrat": "^5.2.6",
     "@fontsource/roboto": "^5.2.6",
     "@fontsource/syncopate": "^5.2.6",
